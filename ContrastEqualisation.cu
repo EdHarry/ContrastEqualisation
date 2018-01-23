@@ -1,6 +1,6 @@
 #define NSavingThreads 10
 #define ClippedHistCutOffSlope 3
-#include "../CudaInc/EHCuda.h"
+#include "CudaHeader/EHCuda.h"
 
 CreateThread(Reading_Thread);
 CreateMutex(ReadingThread_Mutex);
